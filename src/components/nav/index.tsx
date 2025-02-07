@@ -26,7 +26,7 @@ export function Nav() {
     <>
       <nav className="hidden md:flex gap-4 text-sm md:text-base">
         <Link href={"/"}>Home</Link>
-        <Link href={"/cardapio/prato-feito"}>Cardápio</Link>
+        <Link href={"/cardapio/menu-de-prato-feito"}>Cardápio</Link>
         <Link href={"/contato"}>Contato</Link>
       </nav>
       <div className="flex md:hidden">
@@ -51,7 +51,7 @@ export function Nav() {
               Home
             </Link>
             <Link
-              href={"/cardapio/prato-feito"}
+              href={"/cardapio/menu-de-prato-feito"}
               onClick={() => setIsOpen(false)}
             >
               Cardápio
