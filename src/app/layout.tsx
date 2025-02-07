@@ -13,10 +13,13 @@ export const metadata: Metadata = {
   title: "DEVLANCHES",
   description: "Acreditamos que a comida vai além de um simples prato",
   icons: "/favicon.png",
+
   openGraph: {
     title: "DEVLANCHES",
     description: "Acreditamos que a comida vai além de um simples prato",
+    images: [`${process.env.NEXT_PUBLIC_URL}/vegan.jpg`],
   },
+
   robots: {
     index: true,
     follow: true,
