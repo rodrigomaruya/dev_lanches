@@ -3,7 +3,7 @@ import { Container } from "@/components/container";
 export default function Contato() {
   return (
     <Container>
-      <div className="h-[calc(100vh-125px)] pt-24 w-full flex flex-col items-center ">
+      <div className="h-[calc(100vh-80px)] pt-24 w-full flex flex-col items-center ">
         <h1 className="font-bold text-slate-400 text-xl md:text-3xl mt-9 mb-4">
           Contato
         </h1>
