@@ -41,12 +41,12 @@ export function Nav() {
       >
         <div className="w-2/3 min-h-screen bg-white px-4 py-4">
           <div className="flex">
-            <h2 className="w-full text-center">Menu</h2>
+            <h2 className="w-full text-center text-2xl">Menu</h2>
             <button onClick={handleOpen}>
-              <FiX />
+              <FiX size={24} />
             </button>
           </div>
-          <div className="flex flex-col gap-4 py-4 text-sm">
+          <div className="flex flex-col gap-4 mt-11 text-xl">
             <Link href={"/"} onClick={() => setIsOpen(false)}>
               Home
             </Link>

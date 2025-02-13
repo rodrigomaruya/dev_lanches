@@ -3,9 +3,9 @@ import { FiFacebook, FiInstagram } from "react-icons/fi";
 
 export function Footer() {
   return (
-    <footer className="w-full px-4 pt-5 pb-9 border-t-2 shadow-sm">
+    <footer className="w-full px-4 pt-5 pb-9 border-t-2 shadow-sm ">
       <div className="max-w-7xl mx-auto flex flex-col justify-center items-center">
-        <p>
+        <p className="text-center">
           &copy; {new Date().getFullYear()} DEVLANCHES. Todos direitos
           reservados{" "}
         </p>

@@ -3,11 +3,11 @@ import { Container } from "@/components/container";
 export default function Contato() {
   return (
     <Container>
-      <div className="h-[calc(100vh-80px)] pt-24 w-full flex flex-col items-center ">
-        <h1 className="font-bold text-slate-400 text-xl md:text-3xl mt-9 mb-4">
+      <div className="min-h-screen pt-24 w-full flex flex-col items-center pb-9">
+        <h1 className="font-bold text-slate-400 text-xl md:text-3xl mb-4">
           Contato
         </h1>
-        <form className="flex flex-col items-center justify-center py-6 px-6 w-full max-w-2xl border-2 rounded-md shadow-sm">
+        <form className="flex flex-col items-center justify-center py-6 px-2 w-full max-w-2xl border-2 rounded-md shadow-sm">
           <div className="flex flex-col w-full gap-2 mb-4">
             <label>Seu nome completo</label>
             <input

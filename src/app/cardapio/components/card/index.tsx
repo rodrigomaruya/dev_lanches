@@ -41,11 +41,13 @@ export function Card({
           sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
         />
       </div>
-      <div className="flex flex-col w-11/12 px-2 justify-center mt-4">
-        <p className="text-base md:text-lg font-bold">{product_title}</p>
-        <p className="text-sm md:text-base md:leading-normal">{description}</p>
-        <div className="flex items center pt-3">
-          <p className="w-full">
+      <div className="flex flex-col px-2 justify-center mt-4 w-full">
+        <p className="text-xl md:text-lg font-bold text-center pb-2">
+          {product_title}
+        </p>
+        <p className="text-sm md:text-base leading-relaxed">{description}</p>
+        <div className="flex items-center pt-6 pb-2 ">
+          <p className="w-full text-xl">
             Preço: <strong>{formatPrice(price)}</strong>
           </p>
           {takeout && (

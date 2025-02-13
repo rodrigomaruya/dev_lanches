@@ -16,7 +16,7 @@ export default async function PratoFeito({
   return (
     <main className="pt-40 w-full bg-gray-50 min-h-screen">
       <Container>
-        <h1 className=" text-black font-bold text-center">
+        <h1 className=" text-black font-bold text-center text-2xl py-3">
           {objects[0].title}
         </h1>
 
