@@ -11,6 +11,6 @@ export function orderMessage(message: CardTextProps[], price: number) {
   const messageOrder = `Meu pedido: ${messageProduct}  ==>  Total: ${formatPrice(
     price
   )} ||=>  POR FAVOR CONFIRME O SEU PEDIDO E DIGITE O SEU NOME:`;
-  const link = `https://api.whatsapp.com/send?phone=+8109017223073&text=${messageOrder}`;
+  const link = `https://api.whatsapp.com/send?phone=&text=${messageOrder}`;
   return link;
 }
